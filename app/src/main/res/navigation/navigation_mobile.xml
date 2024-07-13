@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_mobile"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ec.edu.espoch.clasefragmentos.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/consultaFragment"
+        android:name="ec.edu.espoch.clasefragmentos.ConsultaFragment"
+        android:label="fragment_consulta"
+        tools:layout="@layout/fragment_consulta" />
+    <fragment
+        android:id="@+id/listarFragment"
+        android:name="ec.edu.espoch.clasefragmentos.ListarFragment"
+        android:label="fragment_listar"
+        tools:layout="@layout/fragment_listar" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ec.edu.espoch.clasefragmentos.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+</navigation>
